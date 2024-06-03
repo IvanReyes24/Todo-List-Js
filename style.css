@@ -65,6 +65,9 @@ main .add-taskDiv{
 
 .todo-list .item{
 	margin-top: 15px;
+	background-color: #FEFFD2;
+	padding: 10px;
+	border-radius: 10px;
 }
 
 .item .input-controller{
