@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Recursive", sans-serif;
+}
+.update-controller{
+	display: none;
+}
+
+body{
+	background-color: #FEFFD2;
+}
+
+main{
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	background-color: #FFEEA9;
+	padding: 20px;
+}
+
+main h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+main h2{
+font-size: 13px;
+text-align: center;
+margin-top: 10px;
+}
+
+main .add-taskDiv{
+	display: flex;
+	justify-content: space-between;
+}
+
+.add-taskDiv input{
+	flex-grow: 1;
+	height: 35px;
+	border-radius: 10px 0 0 10px;
+	border: none;
+	outline: none;
+	padding: 10px;
+}
+
+.add-taskDiv #enter{
+	border: none;
+	background-color: #FF7D29;
+	width: 50px;
+	border-radius: 0 10px 10px 0;
+	cursor: pointer;
+	color:#FEFFD2;
+
+}
+
+.todo-list{
+	margin-top: 10px;
+	border-top: 1px solid #feffba;
+}
+
+.todo-list .item{
+	margin-top: 15px;
+}
+
+.item .input-controller{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+.input-controller textarea{
+	width: 80%;
+	text-align: left;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #FF7D29;
+	font-size: 15px;
+
+}
+
+textarea input{
+	margin-top: 20px;
+}
+
+.edit-controller button{
+	padding: 10px 15px;
+	border: 0;
+	cursor: pointer;
+}
+
+.edit-controller .delBtn{
+	background-color: #FF7D29;
+	color: #FEFFD2;
+}
+
+.edit-controller .editBtn{
+	background-color: #feffba;
+	color: #FF7D29;
+}
+
+.item .update-controller{
+	margin: 10px;
+}
+
+.update-controller button{
+	padding: 5px 10px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.update-controller .saveBtn{
+	background-color: #FF7D29;
+	color: #FEFFD2;
+}
+
+.update-controller .cancelBtn{
+	background-color: #FEFFD2;
+	color: #FF7D29;
+}
